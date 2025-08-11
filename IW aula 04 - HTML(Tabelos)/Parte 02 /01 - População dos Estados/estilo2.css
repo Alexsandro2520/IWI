@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+thead{
+    font-size: 20px;
+    
+}
+td, th{
+    border: 1px solid black;
+    padding: 15px;
+    
+
+}
+
+img{
+    height: 50px;
+    width: 70px;
+}
+
+/*Subtitulo*/
+thead, tfoot{
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+
+.sub{
+    background-color: gray;
+}
+
+:root{
+    --border-expessure: 2px solid black;
+}
+
+.borderleft{
+    border-left: var(--border-expessure);
+}
+.borderdown{
+    border-bottom: var(--border-expessure);
+}
+.borderright{
+    border-right: var(--border-expessure);
+}
+.borderup{
+    border-top: var(--border-expessure);
+}
+
+/*Gabriel*/
+.vish{
+    background-color: lightpink;
+}
+.vishimg{
+    height: 30px;
+    width: 30px
+}
